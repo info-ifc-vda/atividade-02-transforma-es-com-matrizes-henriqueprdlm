@@ -42,8 +42,8 @@ def main():
     glfw.make_context_current(window)
     init()
     tr = translacao(vertices, -0.1, 0.5)    #vermelho
-    ro = rotacao(vertices, 180)              #verde     
-    es = escala(vertices, 2)              #azul
+    ro = rotacao(vertices, 180)             #verde     
+    es = escala(vertices, 2)                #azul
     glClear(GL_COLOR_BUFFER_BIT)
     while not glfw.window_should_close(window):     
         glfw.poll_events()
